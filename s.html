@@ -1,112 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Spice Garden Restaurant</title>
-
+    <meta charset="UTF-8">
+    <title>Sabin - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
+    <!-- Navigation Bar -->
     <header>
-        <div class="logo">🍽️ Spice Garden</div>
-
         <nav>
-            <a href="#home">Home</a>
-            <a href="#menu">Menu</a>
-            <a href="#special">Today's Special</a>
-            <a href="#booking">Book Table</a>
-            <a href="#feedback">Feedback</a>
-            <a href="#contact">Contact</a>
+            <h2>Sabin</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
 
-    <!-- Home -->
-    <section id="home" class="hero">
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
 
-        <div class="hero-content">
-            <h1>Welcome to Spice Garden</h1>
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Sabin</span></h1>
+
+            <h2>Computer Science Engineering Student</h2>
 
             <p>
-                Delicious food, warm hospitality and unforgettable moments.
+                I am a B.Tech Computer Science Engineering student
+                interested in programming, web development and
+                creating practical projects.
             </p>
 
-            <a href="#booking" class="button">
-                Book Your Table
-            </a>
-        </div>
+            <a href="#about" class="btn">About Me</a>
 
+        </div>
     </section>
 
 
-    <!-- About -->
-    <section class="about">
+    <!-- About Section -->
+    <section id="about">
 
-        <h2>About Our Restaurant</h2>
+        <h2 class="section-title">About Me</h2>
 
-        <p>
-            Spice Garden is a family-friendly restaurant serving
-            delicious food made with fresh ingredients and traditional
-            cooking methods.
-        </p>
+        <div class="about-content">
 
-        <div class="features">
+            <div class="about-text">
 
-            <div class="feature">
-                <h3>🥗 Fresh Ingredients</h3>
-                <p>Fresh and quality ingredients in every dish.</p>
-            </div>
-
-            <div class="feature">
-                <h3>👨‍🍳 Expert Chefs</h3>
-                <p>Our chefs prepare every dish with care.</p>
-            </div>
-
-            <div class="feature">
-                <h3>❤️ Great Service</h3>
-                <p>Friendly service for a comfortable experience.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Today's Special -->
-    <section id="special" class="special-section">
-
-        <h2>🌟 Today's Special</h2>
-
-        <div class="special-card">
-
-            <div>
-                <img
-                    src="https://images.unsplash.com/photo-1563379091339-03246963d51a?auto=format&fit=crop&w=800&q=80"
-                    alt="Chicken Biryani">
-            </div>
-
-            <div class="special-info">
-
-                <h3>Special Chicken Biryani</h3>
+                <h3>Hello! I'm Sabin.</h3>
 
                 <p>
-                    Fragrant basmati rice cooked with tender chicken,
-                    fresh herbs and traditional spices.
+                    I am a Computer Science Engineering student who
+                    enjoys learning new technologies and developing
+                    useful projects.
                 </p>
 
                 <p>
-                    <strong>Ingredients:</strong>
-                    Basmati rice, chicken, onion, tomato,
-                    yogurt, herbs and spices.
+                    I am currently learning HTML, CSS, Python , java, c-programming and
+                    other programming concepts. My goal is to improve
+                    my technical skills and build practical solutions
+                    using technology.
                 </p>
-
-                <h4>₹249</h4>
-
-                <span class="special-tag">
-                    Chef's Special
-                </span>
 
             </div>
 
@@ -115,427 +78,42 @@
     </section>
 
 
-    <!-- Menu -->
-    <section id="menu">
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
 
-        <h2>🍴 Our Menu</h2>
+        <h2 class="section-title">My Skills</h2>
 
-        <div class="menu-container">
+        <div class="skills-container">
 
-            <!-- Food 1 -->
-            <div class="food-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=700&q=80"
-                    alt="Momos">
-
-                <div class="food-content">
-
-                    <h3>Veg Momos</h3>
-
-                    <p>
-                        Steamed dumplings filled with fresh vegetables.
-                    </p>
-
-                    <p class="ingredients">
-                        <strong>Ingredients:</strong>
-                        Cabbage, carrot, onion, flour and spices.
-                    </p>
-
-                    <div class="food-bottom">
-                        <span>₹120</span>
-                        <button>Order</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Food 2 -->
-            <div class="food-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1563379091339-03246963d51a?auto=format&fit=crop&w=700&q=80"
-                    alt="Biryani">
-
-                <div class="food-content">
-
-                    <h3>Chicken Biryani</h3>
-
-                    <p>
-                        Aromatic basmati rice with delicious chicken.
-                    </p>
-
-                    <p class="ingredients">
-                        <strong>Ingredients:</strong>
-                        Rice, chicken, onion, tomato and spices.
-                    </p>
-
-                    <div class="food-bottom">
-                        <span>₹249</span>
-                        <button>Order</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Food 3 -->
-            <div class="food-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=700&q=80"
-                    alt="Paneer Tikka">
-
-                <div class="food-content">
-
-                    <h3>Paneer Tikka</h3>
-
-                    <p>
-                        Grilled paneer with vegetables and spices.
-                    </p>
-
-                    <p class="ingredients">
-                        <strong>Ingredients:</strong>
-                        Paneer, capsicum, onion, yogurt and spices.
-                    </p>
-
-                    <div class="food-bottom">
-                        <span>₹199</span>
-                        <button>Order</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Food 4 -->
-            <div class="food-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80"
-                    alt="Fresh Salad">
-
-                <div class="food-content">
-
-                    <h3>Fresh Salad</h3>
-
-                    <p>
-                        Healthy salad prepared with fresh vegetables.
-                    </p>
-
-                    <p class="ingredients">
-                        <strong>Ingredients:</strong>
-                        Cucumber, tomato, carrot, onion and lemon.
-                    </p>
-
-                    <div class="food-bottom">
-                        <span>₹99</span>
-                        <button>Order</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Food 5 -->
-            <div class="food-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=700&q=80"
-                    alt="French Fries">
-
-                <div class="food-content">
-
-                    <h3>Crispy French Fries</h3>
-
-                    <p>
-                        Golden and crispy fries served with sauce.
-                    </p>
-
-                    <p class="ingredients">
-                        <strong>Ingredients:</strong>
-                        Potato, salt, oil and seasoning.
-                    </p>
-
-                    <div class="food-bottom">
-                        <span>₹110</span>
-                        <button>Order</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Food 6 -->
-            <div class="food-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=80"
-                    alt="Dessert">
-
-                <div class="food-content">
-
-                    <h3>Chocolate Dessert</h3>
-
-                    <p>
-                        Delicious chocolate dessert for sweet lovers.
-                    </p>
-
-                    <p class="ingredients">
-                        <strong>Ingredients:</strong>
-                        Chocolate, milk, cream and sugar.
-                    </p>
-
-                    <div class="food-bottom">
-                        <span>₹150</span>
-                        <button>Order</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Booking -->
-    <section id="booking" class="form-section">
-
-        <h2>🪑 Book Your Table</h2>
-
-        <div class="form-box">
-
-            <form>
-
-                <label>Full Name</label>
-                <input
-                    type="text"
-                    placeholder="Enter your name">
-
-                <label>Phone Number</label>
-                <input
-                    type="tel"
-                    placeholder="Enter phone number">
-
-                <div class="two-input">
-
-                    <div>
-                        <label>Date</label>
-                        <input type="date">
-                    </div>
-
-                    <div>
-                        <label>Time</label>
-                        <input type="time">
-                    </div>
-
-                </div>
-
-                <label>Number of Guests</label>
-
-                <select>
-                    <option>Select number of guests</option>
-                    <option>1 Person</option>
-                    <option>2 People</option>
-                    <option>3 People</option>
-                    <option>4 People</option>
-                    <option>5 People</option>
-                    <option>6+ People</option>
-                </select>
-
-                <label>Special Request</label>
-
-                <textarea
-                    placeholder="Birthday, window seat, decoration, etc.">
-                </textarea>
-
-                <button class="submit-button">
-                    Book My Table
-                </button>
-
-            </form>
-
-        </div>
-
-    </section>
-
-
-    <!-- Staff Appreciation -->
-    <section class="staff-section">
-
-        <h2>❤️ Appreciate Our Team</h2>
-
-        <p class="center-text">
-            Had a great experience? Send appreciation to our team.
-        </p>
-
-        <div class="staff-container">
-
-            <div class="staff-card">
-                <div class="staff-icon">👨‍🍳</div>
-                <h3>Chef</h3>
+            <div class="skill-card">
+                <h3>HTML</h3>
                 <p>
-                    Thank our chef for delicious food.
-                </p>
-                <button>Appreciate Chef</button>
-            </div>
-
-            <div class="staff-card">
-                <div class="staff-icon">🧑‍🍽️</div>
-                <h3>Waiter</h3>
-                <p>
-                    Appreciate excellent table service.
-                </p>
-                <button>Appreciate Waiter</button>
-            </div>
-
-            <div class="staff-card">
-                <div class="staff-icon">🧑‍💼</div>
-                <h3>Manager</h3>
-                <p>
-                    Appreciate good restaurant management.
-                </p>
-                <button>Appreciate Manager</button>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Feedback -->
-    <section id="feedback" class="form-section">
-
-        <h2>⭐ Rate & Give Feedback</h2>
-
-        <div class="form-box">
-
-            <form>
-
-                <label>Your Name</label>
-
-                <input
-                    type="text"
-                    placeholder="Enter your name">
-
-
-                <label>Restaurant Rating</label>
-
-                <div class="stars">
-                    ☆ ☆ ☆ ☆ ☆
-                </div>
-
-
-                <label>Food Quality</label>
-
-                <select>
-                    <option>Excellent</option>
-                    <option>Good</option>
-                    <option>Average</option>
-                    <option>Needs Improvement</option>
-                </select>
-
-
-                <label>Service Quality</label>
-
-                <select>
-                    <option>Excellent</option>
-                    <option>Good</option>
-                    <option>Average</option>
-                    <option>Needs Improvement</option>
-                </select>
-
-
-                <label>Your Feedback</label>
-
-                <textarea
-                    placeholder="Tell us about your experience...">
-                </textarea>
-
-
-                <label>Your Suggestion</label>
-
-                <textarea
-                    placeholder="Suggest food, decoration, music, seating, etc.">
-                </textarea>
-
-
-                <label>Which team member would you like to appreciate?</label>
-
-                <select>
-                    <option>Chef</option>
-                    <option>Waiter</option>
-                    <option>Manager</option>
-                    <option>Whole Team</option>
-                </select>
-
-
-                <label>Optional Tip</label>
-
-                <select>
-                    <option>No Tip</option>
-                    <option>₹50</option>
-                    <option>₹100</option>
-                    <option>₹200</option>
-                    <option>₹500</option>
-                </select>
-
-
-                <button class="submit-button">
-                    Submit Feedback
-                </button>
-
-            </form>
-
-        </div>
-
-    </section>
-
-
-    <!-- Customer Suggestions -->
-    <section class="suggestion-section">
-
-        <h2>💡 What Would You Like To See?</h2>
-
-        <div class="suggestion-container">
-
-            <div class="suggestion-card">
-                <h3>🍜 New Food</h3>
-                <p>
-                    Suggest a food item you frequently want
-                    to eat when you visit us.
+                    Creating the structure and content
+                    of websites.
                 </p>
             </div>
 
-            <div class="suggestion-card">
-                <h3>🏠 Decoration</h3>
+            <div class="skill-card">
+                <h3>CSS</h3>
                 <p>
-                    Suggest changes to our decoration,
-                    seating or restaurant design.
+                    Designing and styling websites
+                    using CSS.
                 </p>
             </div>
 
-            <div class="suggestion-card">
-                <h3>🎵 Music & Atmosphere</h3>
+            <div class="skill-card">
+                <h3>Python</h3>
                 <p>
-                    Tell us what music or atmosphere
-                    you would like.
+                    Learning programming, logic and
+                    problem solving.
                 </p>
             </div>
 
-            <div class="suggestion-card">
-                <h3>🍽️ Menu Improvement</h3>
+            <div class="skill-card">
+                <h3>Web Development</h3>
                 <p>
-                    Suggest food items that you would
-                    like us to add.
+                    Building websites using HTML
+                    and CSS.
                 </p>
             </div>
 
@@ -544,31 +122,140 @@
     </section>
 
 
-    <!-- Contact -->
-    <section id="contact" class="contact">
+    <!-- Projects Section -->
+    <section id="projects">
 
-        <h2>📞 Contact Us</h2>
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Restaurant Website</h3>
+
+                <p>
+                    A restaurant website where customers
+                    can view the menu, book seats, give
+                    feedback and provide suggestions.
+                </p>
+
+                <p class="project-tech">
+                    HTML & CSS
+                </p>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Noise Level Detection</h3>
+
+                <p>
+                    A project designed to detect noise
+                    levels in classrooms and traffic areas
+                    using electronic components.
+                </p>
+
+                <p class="project-tech">
+                    Electronics Project
+                </p>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Domain & Range Calculator</h3>
+
+                <p>
+                    A mathematical project focused on
+                    calculating and understanding the
+                    domain and range of functions.
+                </p>
+
+                <p class="project-tech">
+                    Mathematics Project
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-container">
+
+            <div class="education-card">
+
+                <h3>Bachelor of Technology</h3>
+
+                <p>
+                    Computer Science Engineering
+                </p>
+
+                <span>Currently Studying</span>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <h3>Class 12</h3>
+
+                <p>
+                    Higher Secondary Education
+                </p>
+
+                <span>Completed</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <h2 class="section-title">Contact Me</h2>
 
         <div class="contact-container">
 
-            <div>
-                <h3>📍Address</h3>
-                <p>Ring Road, chabahil,Mitrapark kathmandu</p>
-            </div>
+            <div class="contact-card">
 
-            <div>
-                <h3>📞 Phone</h3>
-                <p>+977 9762279423</p>
-            </div>
+                <h3>Let's Connect</h3>
 
-            <div>
-                <h3>✉️ Email</h3>
-                <p>smainali845@gmail.com</p>
-            </div>
+                <p>
+                    If you want to contact me, you can
+                    use the information below.
+                </p>
 
-            <div>
-                <h3>🕐 Opening Hours</h3>
-                <p>10:00 AM – 10:00 PM</p>
+                <p>
+                    <strong>Name:</strong> Sabin prasad Mainali
+                </p>
+
+                <p>
+                    <strong>Email:</strong>
+                     smainali845@gmail.com
+                </p>
+
+                <p>
+                    <strong>Phone:</strong>
+                    +977 9762279423
+                </p>
+
+                <p>
+                    <strong>Location:</strong>
+                     Maharastra, India
+                </p>
+
             </div>
 
         </div>
@@ -579,665 +266,11 @@
     <!-- Footer -->
     <footer>
 
-        <h2>🍽️ Spice Garden</h2>
-
         <p>
-            Good Food • Good People • Good Memories
-        </p>
-
-        <p>
-            © 2026 Spice Garden Restaurant
+            © 2026 Sabin. All Rights Reserved.
         </p>
 
     </footer>
 
 </body>
 </html>
-style.css
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #fffaf3;
-    color: #333;
-}
-
-
-/* ================= HEADER ================= */
-
-header {
-    background: #7f1d1d;
-    color: white;
-    padding: 18px 7%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.logo {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #ffd166;
-}
-
-
-/* ================= HERO ================= */
-
-.hero {
-    height: 550px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    color: white;
-
-    background:
-        linear-gradient(
-            rgba(0, 0, 0, 0.55),
-            rgba(0, 0, 0, 0.55)
-        ),
-        url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1500&q=80");
-
-    background-size: cover;
-    background-position: center;
-}
-
-.hero-content h1 {
-    font-size: 55px;
-    margin-bottom: 20px;
-}
-
-.hero-content p {
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.button {
-    display: inline-block;
-
-    background: #e63946;
-    color: white;
-
-    padding: 14px 28px;
-
-    border-radius: 7px;
-
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.button:hover {
-    background: #b91c2b;
-}
-
-
-/* ================= GENERAL ================= */
-
-section {
-    padding: 70px 7%;
-}
-
-section h2 {
-    text-align: center;
-
-    color: #7f1d1d;
-
-    font-size: 34px;
-
-    margin-bottom: 35px;
-}
-
-
-/* ================= ABOUT ================= */
-
-.about {
-    text-align: center;
-}
-
-.about > p {
-    max-width: 750px;
-    margin: auto;
-
-    line-height: 1.7;
-}
-
-.features {
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(220px, 1fr));
-
-    gap: 25px;
-
-    margin-top: 40px;
-}
-
-.feature {
-    background: white;
-
-    padding: 30px;
-
-    border-radius: 12px;
-
-    box-shadow:
-        0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature h3 {
-    color: #7f1d1d;
-
-    margin-bottom: 12px;
-}
-
-
-/* ================= SPECIAL ================= */
-
-.special-section {
-    background: #fff0c9;
-}
-
-.special-card {
-    max-width: 900px;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    background: white;
-
-    border-radius: 15px;
-
-    overflow: hidden;
-
-    box-shadow:
-        0 5px 20px rgba(0, 0, 0, 0.12);
-}
-
-.special-card img {
-    width: 100%;
-    height: 100%;
-    min-height: 300px;
-
-    object-fit: cover;
-}
-
-.special-info {
-    padding: 35px;
-}
-
-.special-info h3 {
-    color: #7f1d1d;
-
-    font-size: 28px;
-
-    margin-bottom: 15px;
-}
-
-.special-info p {
-    line-height: 1.7;
-
-    margin-bottom: 15px;
-}
-
-.special-info h4 {
-    color: #e63946;
-
-    font-size: 25px;
-
-    margin: 15px 0;
-}
-
-.special-tag {
-    background: #7f1d1d;
-
-    color: white;
-
-    padding: 8px 14px;
-
-    border-radius: 20px;
-
-    font-size: 13px;
-}
-
-
-/* ================= MENU ================= */
-
-.menu-container {
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(250px, 1fr));
-
-    gap: 25px;
-}
-
-.food-card {
-    background: white;
-
-    border-radius: 12px;
-
-    overflow: hidden;
-
-    box-shadow:
-        0 4px 15px rgba(0, 0, 0, 0.1);
-
-    transition: 0.3s;
-}
-
-.food-card:hover {
-    transform: translateY(-5px);
-}
-
-.food-card > img {
-    width: 100%;
-    height: 200px;
-
-    object-fit: cover;
-}
-
-.food-content {
-    padding: 20px;
-}
-
-.food-content h3 {
-    color: #7f1d1d;
-
-    font-size: 22px;
-
-    margin-bottom: 10px;
-}
-
-.food-content p {
-    line-height: 1.5;
-}
-
-.ingredients {
-    color: #666;
-
-    font-size: 14px;
-
-    margin-top: 12px;
-}
-
-.food-bottom {
-    display: flex;
-
-    justify-content: space-between;
-    align-items: center;
-
-    margin-top: 18px;
-}
-
-.food-bottom span {
-    color: #e63946;
-
-    font-size: 20px;
-
-    font-weight: bold;
-}
-
-.food-bottom button {
-    background: #7f1d1d;
-
-    color: white;
-
-    border: none;
-
-    padding: 9px 16px;
-
-    border-radius: 5px;
-
-    cursor: pointer;
-}
-
-
-/* ================= FORMS ================= */
-
-.form-section {
-    background: #f7eee2;
-}
-
-.form-box {
-    max-width: 700px;
-
-    margin: auto;
-
-    background: white;
-
-    padding: 35px;
-
-    border-radius: 12px;
-
-    box-shadow:
-        0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-form {
-    display: grid;
-
-    gap: 14px;
-}
-
-label {
-    font-weight: bold;
-
-    color: #555;
-}
-
-input,
-select,
-textarea {
-    width: 100%;
-
-    padding: 12px;
-
-    border: 1px solid #ccc;
-
-    border-radius: 6px;
-
-    font-size: 15px;
-}
-
-input:focus,
-select:focus,
-textarea:focus {
-    outline: none;
-
-    border-color: #7f1d1d;
-}
-
-textarea {
-    min-height: 120px;
-
-    resize: vertical;
-}
-
-.two-input {
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    gap: 15px;
-}
-
-.submit-button {
-    background: #7f1d1d;
-
-    color: white;
-
-    border: none;
-
-    padding: 14px;
-
-    border-radius: 7px;
-
-    font-size: 16px;
-
-    cursor: pointer;
-
-    margin-top: 10px;
-}
-
-.submit-button:hover {
-    background: #a52a2a;
-}
-
-
-/* ================= STARS ================= */
-
-.stars {
-    color: #ffb703;
-
-    font-size: 35px;
-
-    letter-spacing: 5px;
-
-    cursor: pointer;
-}
-
-
-/* ================= STAFF ================= */
-
-.center-text {
-    text-align: center;
-
-    margin-bottom: 30px;
-}
-
-.staff-container {
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(220px, 1fr));
-
-    gap: 25px;
-}
-
-.staff-card {
-    background: white;
-
-    text-align: center;
-
-    padding: 30px;
-
-    border-radius: 12px;
-
-    box-shadow:
-        0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.staff-icon {
-    font-size: 50px;
-
-    margin-bottom: 15px;
-}
-
-.staff-card h3 {
-    color: #7f1d1d;
-
-    margin-bottom: 10px;
-}
-
-.staff-card p {
-    margin-bottom: 20px;
-}
-
-.staff-card button {
-    background: #e63946;
-
-    color: white;
-
-    border: none;
-
-    padding: 10px 18px;
-
-    border-radius: 6px;
-
-    cursor: pointer;
-}
-
-
-/* ================= SUGGESTIONS ================= */
-
-.suggestion-section {
-    background: #fff0c9;
-}
-
-.suggestion-container {
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(220px, 1fr));
-
-    gap: 25px;
-}
-
-.suggestion-card {
-    background: white;
-
-    padding: 30px;
-
-    text-align: center;
-
-    border-radius: 12px;
-
-    box-shadow:
-        0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.suggestion-card h3 {
-    color: #7f1d1d;
-
-    margin-bottom: 12px;
-}
-
-.suggestion-card p {
-    line-height: 1.6;
-}
-
-
-/* ================= CONTACT ================= */
-
-.contact {
-    text-align: center;
-}
-
-.contact-container {
-    max-width: 900px;
-
-    margin: auto;
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(200px, 1fr));
-
-    gap: 25px;
-}
-
-.contact-container div {
-    background: white;
-
-    padding: 25px;
-
-    border-radius: 10px;
-
-    box-shadow:
-        0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-container h3 {
-    color: #7f1d1d;
-
-    margin-bottom: 10px;
-}
-
-
-/* ================= FOOTER ================= */
-
-footer {
-    background: #351313;
-
-    color: white;
-
-    text-align: center;
-
-    padding: 35px;
-}
-
-footer h2 {
-    margin-bottom: 12px;
-}
-
-
-/* ================= MOBILE ================= */
-
-@media (max-width: 800px) {
-
-    header {
-        flex-direction: column;
-
-        gap: 15px;
-    }
-
-    nav {
-        text-align: center;
-    }
-
-    nav a {
-        display: inline-block;
-
-        margin: 5px;
-    }
-
-    .hero-content h1 {
-        font-size: 38px;
-    }
-
-    .special-card {
-        grid-template-columns: 1fr;
-    }
-
-    .two-input {
-        grid-template-columns: 1fr;
-    }
-}
-
-
-@media (max-width: 500px) {
-
-    section {
-        padding: 50px 5%;
-    }
-
-    .hero {
-        height: 450px;
-    }
-
-    .hero-content h1 {
-        font-size: 32px;
-    }
-
-    .hero-content p {
-        font-size: 16px;
-    }
-
-    .form-box {
-        padding: 20px;
-    }
-
-}
-
-Folder structure:
-
-restaurant-website/
-│
-├── index.html
-└── style.css
-
-This version is HTML + CSS only. The forms and buttons are visual because actual booking/feedback storage requires JavaScript and/or a backend/database.
